@@ -13,7 +13,7 @@ button,input{font:inherit}.app{max-width:1280px;margin:0 auto;padding:28px 30px 
 .stats{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-bottom:18px}.stat{background:var(--card);border-radius:13px;padding:16px 17px;box-shadow:var(--shadow)}.stat .label{color:var(--muted);font-size:12px}.stat .value{font-size:22px;font-weight:700;margin-top:7px}.stat.red .value{color:var(--red)}.stat.green .value{color:var(--green)}.stat.orange .value{color:var(--orange)}
 .layout{display:grid;grid-template-columns:1fr 340px;gap:18px}.card{background:var(--card);border-radius:15px;box-shadow:var(--shadow)}
 .calendar{padding:20px}.calhead{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}.month{font-size:20px;font-weight:700}.nav{display:flex;gap:7px}.nav button{width:34px;height:32px;border:1px solid var(--line);background:#fff;border-radius:8px;cursor:pointer}.week,.days{display:grid;grid-template-columns:repeat(7,1fr)}.week div{color:var(--muted);font-size:12px;text-align:center;padding:8px 0}.day{min-height:105px;border:1px solid var(--line);margin:-1px 0 0 -1px;padding:9px;cursor:pointer;position:relative;background:#fff}.day:hover{background:#fafbfc}.day.other{color:#c9cdd3;background:#fafafa}.day.today{outline:2px solid var(--blue);outline-offset:-2px;z-index:1}.num{font-size:13px;font-weight:600}.tag{font-size:11px;margin-top:10px;line-height:1.5}.tag.red{color:var(--red)}.tag.green{color:var(--green)}.tag.orange{color:var(--orange)}.tag.gray{color:var(--muted)}.dot{width:6px;height:6px;border-radius:50%;display:inline-block;margin-right:4px}
-.side{padding:20px}.side h2{font-size:18px;margin:0 0 5px}.date{font-size:13px;color:var(--muted);margin-bottom:18px}.clock{font-size:30px;font-weight:700;margin:4px 0 15px}.shift{background:#f7f8fa;border-radius:10px;padding:12px;font-size:13px;margin-bottom:14px}.shift b{float:right}.check{width:100%;border:0;border-radius:10px;padding:13px;margin:6px 0;cursor:pointer;font-weight:700}.in{background:#eaf7ee;color:#16803c}.out{background:#fff2e8;color:#c75b0b}.disabled{opacity:.45;cursor:not-allowed}.result{margin-top:15px;border-top:1px solid var(--line);padding-top:14px}.row{display:flex;justify-content:space-between;padding:7px 0;font-size:13px}.row span:first-child{color:var(--muted)}.section{margin-top:18px}.section h3{font-size:14px;margin:0 0 9px}.legend{display:flex;flex-wrap:wrap;gap:9px;font-size:12px;color:var(--muted)}.legend i{width:7px;height:7px;border-radius:50%;display:inline-block;margin-right:4px}
+.side{padding:20px}.side h2{font-size:18px;margin:0 0 5px}.date{font-size:13px;color:var(--muted);margin-bottom:18px}.clock{font-size:30px;font-weight:700;margin:4px 0 15px}.shift{background:#f7f8fa;border-radius:10px;padding:12px;font-size:13px;margin-bottom:14px}.shift b{float:right}.check{width:100%;border:0;border-radius:10px;padding:13px;margin:6px 0;cursor:pointer;font-weight:700}.in{background:#eaf7ee;color:#16803c}.out{background:#fff2e8;color:#c75b0b}.disabled{opacity:.45;cursor:not-allowed}.result{margin-top:15px;border-top:1px solid var(--line);padding-top:14px}.row{display:flex;justify-content:space-between;padding:7px 0;font-size:13px}.row span:first-child{color:var(--muted)}.section{margin-top:18px}.section h3{font-size:14px;margin:0 0 9px}.manual{margin-top:15px;border-top:1px solid var(--line);padding-top:14px}.manual h3,.noteBox h3{font-size:14px;margin:0 0 9px}.manualGrid{display:grid;grid-template-columns:1fr 1fr;gap:8px}.manualGrid label{font-size:11px;color:var(--muted)}.manualGrid input{width:100%;margin-top:4px;padding:8px;border:1px solid var(--line);border-radius:8px}.saveManual,.saveNote{margin-top:8px;width:100%;border:0;border-radius:8px;background:#f0f4ff;color:var(--blue);padding:9px;cursor:pointer}.noteBox{margin-top:15px;border-top:1px solid var(--line);padding-top:14px}.noteBox textarea{width:100%;min-height:78px;resize:vertical;border:1px solid var(--line);border-radius:9px;padding:10px;font-size:13px;line-height:1.5}.notePreview{font-size:10px;color:#667085;margin-top:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.legend{display:flex;flex-wrap:wrap;gap:9px;font-size:12px;color:var(--muted)}.legend i{width:7px;height:7px;border-radius:50%;display:inline-block;margin-right:4px}
 .modal{position:fixed;inset:0;background:rgba(0,0,0,.35);display:none;align-items:center;justify-content:center;padding:20px}.modal.show{display:flex}.modalbox{width:min(470px,100%);background:#fff;border-radius:16px;padding:22px;box-shadow:0 20px 60px rgba(0,0,0,.18)}.modalbox h2{margin:0 0 18px}.form{display:grid;grid-template-columns:1fr 1fr;gap:13px}.field label{display:block;font-size:12px;color:var(--muted);margin-bottom:6px}.field input{width:100%;padding:9px;border:1px solid var(--line);border-radius:8px}.form .full{grid-column:1/-1}.modalfoot{display:flex;justify-content:flex-end;gap:8px;margin-top:18px}
 @media(max-width:900px){.layout{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:600px){.app{padding:15px}.stats{grid-template-columns:1fr 1fr}.day{min-height:82px;padding:6px}.tag{font-size:10px}.top{align-items:flex-start;gap:10px}.actions{flex-wrap:wrap}}
@@ -46,7 +46,20 @@ button,input{font:inherit}.app{max-width:1280px;margin:0 auto;padding:28px 30px 
       <div class="shift">规定工作时间 <b>09:30–18:00</b></div>
       <button class="check in" id="inBtn" onclick="checkIn()">🟢 上班打卡</button>
       <button class="check out" id="outBtn" onclick="checkOut()">🟠 下班打卡</button>
+      <div class="manual">
+        <h3>⌨️ 手动输入时间</h3>
+        <div class="manualGrid">
+          <label>实际上班<input id="manualIn" type="time"></label>
+          <label>实际下班<input id="manualOut" type="time"></label>
+        </div>
+        <button class="saveManual" onclick="saveManual()">保存时间</button>
+      </div>
       <div class="result" id="result"></div>
+      <div class="noteBox">
+        <h3>📝 今日备注</h3>
+        <textarea id="noteInput" placeholder="例如：地铁晚点、加班、请假、外出办公……"></textarea>
+        <button class="saveNote" onclick="saveNote()">保存备注</button>
+      </div>
     </div>
   </div>
 </div>
@@ -111,6 +124,7 @@ function render(){
       if(l) tags+=`<div class="tag red">🔴 迟到 ${l}m</div>`; else tags+=`<div class="tag green">🟢 正常</div>`;
       if(o) tags+=`<div class="tag orange">🟠 加班 ${fmtMin(o)}</div>`;
     } else if(inMonth&&workday(d)&&!x.in&&k!==todayKey()) tags+=`<div class="tag gray">未打卡</div>`;
+    if(inMonth && x.note) tags+=`<div class="notePreview">📝 ${String(x.note).slice(0,18)}</div>`;
     html+=`<div class="${cls}" onclick="selectDay('${k}')"><div class="num">${inMonth?d.getDate():""}</div>${tags}</div>`;
   }
   document.getElementById("days").innerHTML=html;
@@ -118,9 +132,29 @@ function render(){
   renderSide();
 }
 function selectDay(k){selectedKey=k;let d=new Date(k+"T00:00:00");view=new Date(d.getFullYear(),d.getMonth(),1);render()}
+function saveNote(){
+  const x=data.days[selectedKey]||{};
+  const v=document.getElementById("noteInput").value.trim();
+  if(v)x.note=v; else delete x.note;
+  data.days[selectedKey]=x; save(); render();
+}
+function saveManual(){
+  const d=new Date(selectedKey+"T00:00:00");
+  if(!workday(d)){alert("周末无需考勤");return}
+  const x=data.days[selectedKey]||{};
+  const i=document.getElementById("manualIn").value;
+  const o=document.getElementById("manualOut").value;
+  if(!i && !o){alert("请至少输入一个时间");return}
+  if(i)x.in=i; else delete x.in;
+  if(o)x.out=o; else delete x.out;
+  data.days[selectedKey]=x; save(); render();
+}
 function renderSide(){
   let d=new Date(selectedKey+"T00:00:00"), x=data.days[selectedKey]||{};
   document.getElementById("selectedDate").textContent=`${d.getFullYear()}年${d.getMonth()+1}月${d.getDate()}日 · ${["日","一","二","三","四","五","六"][d.getDay()]}`;
+  document.getElementById("noteInput").value=x.note||"";
+  document.getElementById("manualIn").value=x.in||"";
+  document.getElementById("manualOut").value=x.out||"";
   document.getElementById("inBtn").disabled=!!x.in||!workday(d);document.getElementById("outBtn").disabled=!x.in||!!x.out||!workday(d);
   document.getElementById("inBtn").classList.toggle("disabled",document.getElementById("inBtn").disabled);document.getElementById("outBtn").classList.toggle("disabled",document.getElementById("outBtn").disabled);
   if(!x.in&&!x.out){document.getElementById("result").innerHTML="<div class='row'><span>状态</span><b>尚未打卡</b></div>";return}
