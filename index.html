@@ -11,12 +11,12 @@ button,input,select,textarea{font:inherit}.app{max-width:1320px;margin:0 auto;pa
 .top{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin-bottom:22px}.brand h1{margin:0;font-size:25px}.brand p{margin:6px 0 0;color:var(--muted);font-size:13px}
 .actions{display:flex;gap:9px;flex-wrap:wrap;justify-content:flex-end}.btn{border:1px solid var(--line);background:#fff;border-radius:8px;padding:9px 13px;cursor:pointer;white-space:nowrap}.btn:hover{background:#f8f9fa}.primary{background:var(--blue);border-color:var(--blue);color:#fff}.danger{color:var(--red)}
 .stats{display:grid;grid-template-columns:repeat(7,1fr);gap:12px;margin-bottom:18px}.stat{background:var(--card);border-radius:8px;padding:15px 16px;box-shadow:var(--shadow)}.stat .label{color:var(--muted);font-size:12px}.stat .value{font-size:21px;font-weight:700;margin-top:7px}.stat.red .value{color:var(--red)}.stat.green .value{color:var(--green)}.stat.orange .value{color:var(--orange)}.stat.purple .value{color:var(--purple)}
-.layout{display:grid;grid-template-columns:1fr 360px;gap:18px}.card{background:var(--card);border-radius:12px;box-shadow:var(--shadow)}
+.layout{display:grid;grid-template-columns:1fr 360px;gap:18px}.maincol{display:flex;flex-direction:column;gap:18px}.card{background:var(--card);border-radius:12px;box-shadow:var(--shadow)}
 .calendar{padding:20px}.calhead{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}.month{font-size:20px;font-weight:700}.nav{display:flex;gap:7px}.nav button{min-width:34px;height:32px;border:1px solid var(--line);background:#fff;border-radius:8px;cursor:pointer;padding:0 10px}.week,.days{display:grid;grid-template-columns:repeat(7,1fr)}.week div{color:var(--muted);font-size:12px;text-align:center;padding:8px 0}.day{min-height:112px;border:1px solid var(--line);margin:-1px 0 0 -1px;padding:9px;cursor:pointer;position:relative;background:#fff}.day:hover{background:#fafbfc}.day.other{color:#c9cdd3;background:#fafafa}.day.today{outline:2px solid var(--blue);outline-offset:-2px;z-index:1}.day.selected{box-shadow:inset 0 0 0 2px rgba(51,112,255,.25);z-index:2}.num{font-size:13px;font-weight:700}.badge{display:inline-block;border-radius:6px;padding:1px 5px;font-size:10px;margin-left:4px;color:#fff;vertical-align:1px}.badge.rest{background:#667085}.badge.work{background:var(--blue)}.badge.holiday{background:var(--purple)}
 .tag{font-size:11px;margin-top:8px;line-height:1.45}.tag.red{color:var(--red)}.tag.green{color:var(--green)}.tag.orange{color:var(--orange)}.tag.blue{color:var(--blue)}.tag.gray{color:var(--muted)}.notePreview{font-size:10px;color:#667085;margin-top:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.side{padding:20px}.side h2{font-size:18px;margin:0 0 5px}.date{font-size:13px;color:var(--muted);margin-bottom:18px}.clock{font-size:30px;font-weight:700;margin:4px 0 15px}.shift{background:#f7f8fa;border-radius:8px;padding:12px;font-size:13px;margin-bottom:14px}.shift b{float:right}.check{width:100%;border:0;border-radius:8px;padding:13px;margin:6px 0;cursor:pointer;font-weight:700}.in{background:#eaf7ee;color:#16803c}.out{background:#fff2e8;color:#c75b0b}.disabled{opacity:.45;cursor:not-allowed}.result{margin-top:15px;border-top:1px solid var(--line);padding-top:14px}.row{display:flex;justify-content:space-between;gap:14px;padding:7px 0;font-size:13px}.row span:first-child{color:var(--muted)}.section{margin-top:18px}.section h3{font-size:15px;margin:0 0 10px}.legend{display:flex;flex-wrap:wrap;gap:9px;font-size:12px;color:var(--muted)}.legend i{width:7px;height:7px;border-radius:50%;display:inline-block;margin-right:4px}
+.side{padding:20px}.side h2{font-size:18px;margin:0 0 5px}.dateLine{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:18px}.date{font-size:13px;color:var(--muted)}.linkBtn{border:0;background:transparent;color:var(--blue);padding:3px 0;cursor:pointer;font-size:13px;white-space:nowrap}.clock{font-size:30px;font-weight:700;margin:4px 0 15px}.shift{background:#f7f8fa;border-radius:8px;padding:12px;font-size:13px;margin-bottom:14px}.shift b{float:right}.check{width:100%;border:0;border-radius:8px;padding:13px;margin:6px 0;cursor:pointer;font-weight:700}.in{background:#eaf7ee;color:#16803c}.out{background:#fff2e8;color:#c75b0b}.disabled{opacity:.45;cursor:not-allowed}.result{margin-top:15px;border-top:1px solid var(--line);padding-top:14px}.row{display:flex;justify-content:space-between;gap:14px;padding:7px 0;font-size:13px}.row span:first-child{color:var(--muted)}.section{margin-top:18px}.section h3{font-size:15px;margin:0 0 10px}.legend{display:flex;flex-wrap:wrap;gap:9px;font-size:12px;color:var(--muted)}.legend i{width:7px;height:7px;border-radius:50%;display:inline-block;margin-right:4px}
 .panel{margin-top:15px;border-top:1px solid var(--line);padding-top:14px}.panel h3{font-size:14px;margin:0 0 9px}.panel p{font-size:11px;color:var(--muted);margin:0 0 8px;line-height:1.5}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:8px}.grid2 label,.grid1 label{font-size:11px;color:var(--muted)}.grid2 input,.grid2 select,.grid1 input,.grid1 select{width:100%;margin-top:4px;padding:8px;border:1px solid var(--line);border-radius:8px}.saveLine{margin-top:8px;width:100%;border:0;border-radius:8px;background:#f0f4ff;color:var(--blue);padding:9px;cursor:pointer}.mutedBtn{margin-top:8px;width:100%;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--muted);padding:9px;cursor:pointer}.noteBox textarea{width:100%;min-height:78px;resize:vertical;border:1px solid var(--line);border-radius:8px;padding:10px;font-size:13px;line-height:1.5}.hidden{display:none!important}
-.payBreakdown{margin-top:18px;padding:18px 20px}.payGrid{display:grid;grid-template-columns:repeat(6,1fr);gap:10px}.payItem{border:1px solid var(--line);border-radius:8px;padding:11px}.payItem span{display:block;color:var(--muted);font-size:12px}.payItem b{display:block;margin-top:6px;font-size:16px}
+.payBreakdown{padding:18px 20px}.payGrid{display:grid;grid-template-columns:repeat(6,1fr);gap:10px}.payItem{border:1px solid var(--line);border-radius:8px;padding:11px}.payItem span{display:block;color:var(--muted);font-size:12px}.payItem b{display:block;margin-top:6px;font-size:16px}
 .modal{position:fixed;inset:0;background:rgba(0,0,0,.35);display:none;align-items:center;justify-content:center;padding:20px}.modal.show{display:flex}.modalbox{width:min(560px,100%);max-height:90vh;overflow:auto;background:#fff;border-radius:14px;padding:22px;box-shadow:0 20px 60px rgba(0,0,0,.18)}.modalbox h2{margin:0 0 18px}.form{display:grid;grid-template-columns:1fr 1fr;gap:13px}.field label{display:block;font-size:12px;color:var(--muted);margin-bottom:6px}.field input{width:100%;padding:9px;border:1px solid var(--line);border-radius:8px}.form .full{grid-column:1/-1}.modalfoot{display:flex;justify-content:flex-end;gap:8px;margin-top:18px}
 @media(max-width:1120px){.stats{grid-template-columns:repeat(4,1fr)}.payGrid{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:900px){.layout{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,1fr)}.top{display:block}.actions{justify-content:flex-start;margin-top:12px}}
@@ -47,7 +47,11 @@ button,input,select,textarea{font:inherit}.app{max-width:1320px;margin:0 auto;pa
     <div class="stat green"><div class="label">预计工资</div><div class="value" id="sPay">¥0.00</div></div>
   </div>
   <div class="layout">
-    <div>
+    <div class="maincol">
+      <div class="card payBreakdown">
+        <div class="section"><h3>工资计算</h3></div>
+        <div class="payGrid" id="payBreakdown"></div>
+      </div>
       <div class="card calendar">
         <div class="calhead"><div class="month" id="monthTitle"></div><div class="nav"><button onclick="changeMonth(-1)">‹</button><button onclick="goToday()">今天</button><button onclick="changeMonth(1)">›</button></div></div>
         <div class="week"><div>一</div><div>二</div><div>三</div><div>四</div><div>五</div><div>六</div><div>日</div></div>
@@ -56,31 +60,12 @@ button,input,select,textarea{font:inherit}.app{max-width:1320px;margin:0 auto;pa
           <span><i style="background:#16a34a"></i>正常</span><span><i style="background:#f04438"></i>迟到</span><span><i style="background:#f79009"></i>加班</span><span><i style="background:#7c3aed"></i>节假日</span><span><i style="background:#3370ff"></i>补班/今天</span>
         </div></div>
       </div>
-      <div class="card payBreakdown">
-        <div class="section"><h3>工资计算</h3></div>
-        <div class="payGrid" id="payBreakdown"></div>
-      </div>
     </div>
     <div class="card side">
-      <h2>今日打卡</h2><div class="date" id="selectedDate"></div><div class="clock" id="clock">--:--:--</div>
+      <h2>今日打卡</h2><div class="dateLine"><div class="date" id="selectedDate"></div><button class="linkBtn" onclick="openDayTypeSettings()">修改类型</button></div><div class="clock" id="clock">--:--:--</div>
       <div class="shift">规定工作时间 <b id="shiftText">09:30–18:00</b></div>
       <button class="check in" id="inBtn" onclick="checkIn()">🟢 上班打卡</button>
       <button class="check out" id="outBtn" onclick="checkOut()">🟠 下班打卡</button>
-      <div class="panel">
-        <h3>日期类型</h3>
-        <div class="grid2">
-          <label>手动覆盖<select id="dayTypeSelect">
-            <option value="">自动判断</option>
-            <option value="customWorkday">手动上班日</option>
-            <option value="customRestday">手动休息日</option>
-            <option value="adjustedWorkday">调休补班日</option>
-            <option value="holidayRest">法定节假日</option>
-          </select></label>
-          <label>名称/备注<input id="dayTypeName" type="text" placeholder="例如：公司补班"></label>
-        </div>
-        <button class="saveLine" onclick="saveDayType()">保存日期类型</button>
-        <button class="mutedBtn" onclick="clearDayType()">清除手动覆盖</button>
-      </div>
       <div class="panel">
         <h3>⌨️ 手动输入时间</h3>
         <div class="grid2">
@@ -133,6 +118,22 @@ button,input,select,textarea{font:inherit}.app{max-width:1320px;margin:0 auto;pa
 <div class="modalfoot"><button class="btn" onclick="closeSettings()">取消</button><button class="btn primary" onclick="saveSettings()">保存</button></div>
 </div></div>
 
+<div class="modal" id="dayTypeModal"><div class="modalbox">
+<h2>修改日期类型</h2>
+<div class="form">
+ <div class="field full"><label>当前日期</label><input id="dayTypeDate" type="text" disabled></div>
+ <div class="field"><label>手动覆盖</label><select id="dayTypeSelect" style="width:100%;padding:9px;border:1px solid var(--line);border-radius:8px">
+  <option value="">自动判断</option>
+  <option value="customWorkday">手动上班日</option>
+  <option value="customRestday">手动休息日</option>
+  <option value="adjustedWorkday">调休补班日</option>
+  <option value="holidayRest">法定节假日</option>
+ </select></div>
+ <div class="field"><label>名称/备注</label><input id="dayTypeName" type="text" placeholder="例如：公司补班"></div>
+</div>
+<div class="modalfoot"><button class="btn" onclick="clearDayType()">清除手动覆盖</button><button class="btn" onclick="closeDayTypeSettings()">取消</button><button class="btn primary" onclick="saveDayType()">保存</button></div>
+</div></div>
+
 <script>
 const KEY="personalAttendanceV2";
 const OLD_KEY="personalAttendanceV1";
@@ -180,9 +181,12 @@ function saveNote(){const x=data.days[selectedKey]||{},v=document.getElementById
 function saveManual(){const x=data.days[selectedKey]||{},i=document.getElementById("manualIn").value,o=document.getElementById("manualOut").value;if(!i&&!o){alert("请至少输入一个时间");return}if(i)x.in=i;else delete x.in;if(o)x.out=o;else delete x.out;data.days[selectedKey]=x;save();render()}
 function saveMakeup(){if(!isRequiredWorkday(selectedKey)){alert("休息日不计算迟到补时");return}const x=data.days[selectedKey]||{},v=Math.max(0,Math.floor(+document.getElementById("makeupMin").value||0)),raw=x.in?Math.max(0,minutes(x.in)-minutes(data.settings.start)):0;if(v>raw){alert("补回时间不能超过当天实际迟到时间（"+raw+"分钟）");return}if(v)x.makeup=v;else delete x.makeup;const note=document.getElementById("makeupNote").value.trim();if(note)x.makeupNote=note;else delete x.makeupNote;data.days[selectedKey]=x;save();render()}
 function saveRestOt(){if(isRequiredWorkday(selectedKey)){alert("工作日加班会根据下班时间自动计算");return}const x=data.days[selectedKey]||{},h=+document.getElementById("restOtHours").value||0;if(h>0&&h<1){alert("不满 1 小时不计入加班");return}const m=normalizeOtMinutes(h*60);if(m)x.restOtMinutes=m;else delete x.restOtMinutes;const note=document.getElementById("restOtNote").value.trim();if(note)x.restOtNote=note;else delete x.restOtNote;data.days[selectedKey]=x;save();render()}
-function saveDayType(){const t=document.getElementById("dayTypeSelect").value;if(!t){clearDayType();return}const name=document.getElementById("dayTypeName").value.trim()||DAY_LABELS[t]||"手动设置";if(!data.customDays)data.customDays={};data.customDays[selectedKey]={type:t,name};save();render()}
-function clearDayType(){if(data.customDays)delete data.customDays[selectedKey];save();render()}
-function renderSide(){let d=new Date(selectedKey+"T00:00:00"),x=data.days[selectedKey]||{},rule=getDayRule(selectedKey),required=isRequiredWorkday(selectedKey);document.getElementById("selectedDate").textContent=`${d.getFullYear()}年${d.getMonth()+1}月${d.getDate()}日 · 周${["日","一","二","三","四","五","六"][d.getDay()]} · ${rule.name}`;document.getElementById("noteInput").value=x.note||"";document.getElementById("shiftText").textContent=data.settings.start+"–"+data.settings.end;document.getElementById("manualIn").value=x.in||"";document.getElementById("manualOut").value=x.out||"";document.getElementById("makeupMin").value=x.makeup||"";document.getElementById("makeupNote").value=x.makeupNote||"";document.getElementById("restOtHours").value=x.restOtMinutes?normalizeOtMinutes(x.restOtMinutes)/60:"";document.getElementById("restOtNote").value=x.restOtNote||"";const custom=data.customDays&&data.customDays[selectedKey];document.getElementById("dayTypeSelect").value=custom?custom.type:"";document.getElementById("dayTypeName").value=custom?custom.name:"";document.getElementById("makeupPanel").classList.toggle("hidden",!required);document.getElementById("restOtPanel").classList.toggle("hidden",required);document.getElementById("inBtn").disabled=!!x.in;document.getElementById("outBtn").disabled=!x.in||!!x.out;document.getElementById("inBtn").classList.toggle("disabled",document.getElementById("inBtn").disabled);document.getElementById("outBtn").classList.toggle("disabled",document.getElementById("outBtn").disabled);if(required)renderWorkdayResult(x,d);else renderRestdayResult(x,rule)}
+function fillDayTypeForm(){const custom=data.customDays&&data.customDays[selectedKey],rule=getDayRule(selectedKey);document.getElementById("dayTypeDate").value=selectedKey+" · "+rule.name;document.getElementById("dayTypeSelect").value=custom?custom.type:"";document.getElementById("dayTypeName").value=custom?custom.name:""}
+function openDayTypeSettings(){fillDayTypeForm();dayTypeModal.classList.add("show")}
+function closeDayTypeSettings(){dayTypeModal.classList.remove("show")}
+function saveDayType(){const t=document.getElementById("dayTypeSelect").value;if(!t){clearDayType();return}const name=document.getElementById("dayTypeName").value.trim()||DAY_LABELS[t]||"手动设置";if(!data.customDays)data.customDays={};data.customDays[selectedKey]={type:t,name};closeDayTypeSettings();save();render()}
+function clearDayType(){if(data.customDays)delete data.customDays[selectedKey];closeDayTypeSettings();save();render()}
+function renderSide(){let d=new Date(selectedKey+"T00:00:00"),x=data.days[selectedKey]||{},rule=getDayRule(selectedKey),required=isRequiredWorkday(selectedKey);document.getElementById("selectedDate").textContent=`${d.getFullYear()}年${d.getMonth()+1}月${d.getDate()}日 · 周${["日","一","二","三","四","五","六"][d.getDay()]} · ${rule.name}`;document.getElementById("noteInput").value=x.note||"";document.getElementById("shiftText").textContent=data.settings.start+"–"+data.settings.end;document.getElementById("manualIn").value=x.in||"";document.getElementById("manualOut").value=x.out||"";document.getElementById("makeupMin").value=x.makeup||"";document.getElementById("makeupNote").value=x.makeupNote||"";document.getElementById("restOtHours").value=x.restOtMinutes?normalizeOtMinutes(x.restOtMinutes)/60:"";document.getElementById("restOtNote").value=x.restOtNote||"";fillDayTypeForm();document.getElementById("makeupPanel").classList.toggle("hidden",!required);document.getElementById("restOtPanel").classList.toggle("hidden",required);document.getElementById("inBtn").disabled=!!x.in;document.getElementById("outBtn").disabled=!x.in||!!x.out;document.getElementById("inBtn").classList.toggle("disabled",document.getElementById("inBtn").disabled);document.getElementById("outBtn").classList.toggle("disabled",document.getElementById("outBtn").disabled);if(required)renderWorkdayResult(x,d);else renderRestdayResult(x,rule)}
 function renderWorkdayResult(x,d){if(!x.in&&!x.out){document.getElementById("result").innerHTML="<div class='row'><span>状态</span><b>尚未打卡</b></div>";return}let rawLate=x.in?Math.max(0,minutes(x.in)-minutes(data.settings.start)):0,l=effectiveLate(x),rawOt=x.out?Math.max(0,minutes(x.out)-minutes(data.settings.end)):0,o=normalizeOtMinutes(rawOt);let monthKeys=getMonthKeys(d.getFullYear(),d.getMonth()),count=0;monthKeys.forEach(k=>{let z=data.days[k];if(z&&z.in&&k<=selectedKey&&effectiveLate(z)>0)count++});let f=l?lateFine(l,count,monthKeys.length):0;document.getElementById("result").innerHTML=`<div class="row"><span>上班打卡</span><b>${x.in||"—"}</b></div><div class="row"><span>原始迟到</span><b>${rawLate?rawLate+"分钟":"无"}</b></div><div class="row"><span>调休/补时</span><b style="color:var(--blue)">${x.makeup?x.makeup+"分钟":"无"}</b></div><div class="row"><span>有效迟到</span><b style="color:${l?"var(--red)":"var(--green)"}">${l?l+"分钟":"无"}</b></div><div class="row"><span>本月计入迟到次数</span><b>${count} 次</b></div><div class="row"><span>本次罚款</span><b>${money(f)}</b></div><div class="row"><span>下班打卡</span><b>${x.out||"—"}</b></div><div class="row"><span>原始加班</span><b>${rawOt?fmtMin(rawOt):"无"}</b></div><div class="row"><span>计入加班</span><b style="color:var(--orange)">${o?fmtHours(o):"无"}</b></div>`}
 function renderRestdayResult(x,rule){const m=normalizeOtMinutes(x.restOtMinutes||0),rate=isHolidayRest(selectedKey)?data.settings.holidayOtRate:data.settings.restdayOtRate;document.getElementById("result").innerHTML=`<div class="row"><span>日期性质</span><b>${rule.name}</b></div><div class="row"><span>上班打卡</span><b>${x.in||"—"}</b></div><div class="row"><span>下班打卡</span><b>${x.out||"—"}</b></div><div class="row"><span>计入加班</span><b style="color:var(--orange)">${m?fmtHours(m):"无"}</b></div><div class="row"><span>加班倍率</span><b>${rate} 倍</b></div><div class="row"><span>状态</span><b>休息日不计迟到/全勤</b></div>`}
 function checkIn(){let x=data.days[selectedKey]||{};if(x.in)return;let now=new Date();now.setMinutes(now.getMinutes()+(+data.settings.clockOffset||0));x.in=pad(now.getHours())+":"+pad(now.getMinutes());data.days[selectedKey]=x;save();render()}
